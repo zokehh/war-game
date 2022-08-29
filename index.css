@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-image: url("img/table.png");
+    background-size: cover;
     font-family: "Exo 2", sans-serif;
     height: 100vh;
 }
@@ -34,8 +35,8 @@ button.draw {
 div.card-slot {
     border: 1px solid black;
     border-radius: 5px;
-    height: 120px;
-    width: calc(120px * 5 / 7);
+    height: 250px;
+    width: calc(250px * 5 / 7);
 }
 
 div.card-slot:nth-of-type(1) {
